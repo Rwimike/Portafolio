@@ -1,10 +1,12 @@
-*{
+body{
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-    background-color: black;
+    background-image: url(pixel-7290384_1920.png);
     font-style: normal;
-    color: forestgreen;
+    color: rgb(0, 0, 0);
+
 }
 nav{
         height: 10%;
+        background-color: rgba(rgba(255, 0, 0, 0))
 }
