@@ -18,7 +18,7 @@ body{
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
-    background-color:rgba(8, 128, 10, 0.094);
+    background-color:rgba(13, 175, 140, 0.452);
 }
 button{
     display: flex;
@@ -40,4 +40,9 @@ nav{
     width: 375px;
     align-content: left;
     text-size-adjust: 12;
+}
+a{
+    text-decoration: none;
+    color: rgb(230, 79, 79);
+    
 }
