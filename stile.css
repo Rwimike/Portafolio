@@ -49,3 +49,7 @@ a{
 a:visited{
     color: rgb(230, 79, 79);
 }
+.screen{
+    height: 300px;
+    width: 250px;
+}
