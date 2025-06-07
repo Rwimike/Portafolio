@@ -1,60 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" type="text/css" href="stile.css">
+    <title>Portafolio Gamer - Miguel Lopera</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="stile.css">
 </head>
 
 <body>
     <div class="overlay"></div>
-    <header class="main-header">
+    
+    <!-- Cursor personalizado -->
+    <div class="custom-cursor"></div>
+    
+    <div class="container">
+        <!-- Sidebar -->
         <aside class="sidebar">
-            <div>
-                <h1>Portafolio</h1>
-                <p class="aboutme">Hola Bienvenido a mi portafolio aqui presento mis trabajos</p>
+            <div class="profile-section">
+                <div class="profile-pic">
+                    <img src="video-game-6622751_640.png" alt="Avatar Gamer">
+                </div>
+                <h1>Portafolio Gamer</h1>
+                <p class="aboutme">¡Bienvenido a mi portafolio gamer! Aquí presento mis proyectos de desarrollo web con un toque de diversión y creatividad.</p>
             </div>
-            <div><img src="video-game-6622751_640.png" alt="PictureProfile" style="height: 250px;"></div>
-            <nav>
-                <button><a href="https://github.com/Rwimike" target="_blank" rel="noopener noreferrer">Conoce más</a></button>
-                <button><a href="#informatio">Sobre mi</a></button>
-                <button><a href="Proyectos">Mis Proyecto</a></button>
-            </nav>
+            
+            <div class="nav-buttons">
+                <button class="nav-button">
+                    <a href="https://github.com/Rwimike" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> Ver GitHub
+                    </a>
+                </button>
+                <button class="nav-button">
+                    <a href="#information">
+                        <i class="fas fa-user"></i> Sobre mí
+                    </a>
+                </button>
+                <button class="nav-button">
+                    <a href="#proyectos">
+                        <i class="fas fa-gamepad"></i> Mis Proyectos
+                    </a>
+                </button>
+            </div>
+            
+            <div class="skills">
+                <h3><i class="fas fa-code"></i> Habilidades</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Responsive</span>
+                </div>
+            </div>
         </aside>
-    </header>
-    <section id="information">
-        <header><h2>Hola, Soy Miguel</h2></header>
-        <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, dolores perspiciatis error aut dolore sint sed iste molestiae. Nihil accusamus veritatis illo necessitatibus doloribus distinctio doloremque iure, sint ullam sequi.</p>
-    </section>
-    <section id="proyectos">
-        <div class="contenedor">
-            <a class="item" href="https://rwimike.github.io/Login-signup/">
-                <img src="log.png" alt="Vista previa Login" class="screen">
-                <p>LogIn & SignUp</p>
+        
+        <!-- Contenido principal -->
+        <main class="main-content">
+            <!-- Sección Sobre Mí -->
+            <section id="information" class="section pixel-border">
+                <h2><i class="fas fa-user"></i> Hola, Soy Miguel</h2>
+                <p class="text-info">
+                    Soy Miguel Ángel Lopera Muñoz, desarrollador web de Medellín, Colombia, con 20 años de edad y una gran pasión por el aprendizaje constante. Especializado en tecnologías como Python, HTML y CSS, me enfoco en construir soluciones funcionales, limpias y eficientes.
+                    <br><br>
+                    Me destaco por mi capacidad para liderar proyectos, coordinar equipos y mantener una visión clara desde la planificación hasta la entrega final.
+                    <br><br>
+                    Actualmente resido en el sur de Medellín, donde combino mi entusiasmo por el desarrollo de software con una mentalidad proactiva y enfocada en resultados.
+                    <br><br>
+                    Busco seguir creciendo profesionalmente en el mundo de la tecnología, aportando soluciones innovadoras y colaborando en proyectos que generen impacto real.
+                </p>
+            </section>
+            
+            <!-- Sección Proyectos -->
+            <section id="proyectos" class="section pixel-border">
+                <h2><i class="fas fa-gamepad"></i> Mis Proyectos</h2>
+                <div class="contenedor">
+                    <a class="item" href="https://rwimike.github.io/Login-signup/">
+                        <div class="screen">
+                            <img src="log.png" alt="Login Project" class="project-img">
+                        </div>
+                        <p>LogIn & SignUp</p>
+                    </a>
+                    <a class="item" href="https://rwimike.github.io/Multipages/">
+                        <div class="screen">
+                            <img src="Blog.png" alt="Multipage Project" class="project-img">
+                        </div>
+                        <p>Multipagina</p>
+                    </a>
+                    <a class="item" href="#">
+                        <div class="screen">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <p>Menú</p>
+                    </a>
+                    <a class="item" href="#">
+                        <div class="screen">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <p>Eventos</p>
+                    </a>
+                    <a class="item" href="#">
+                        <div class="screen">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <p>Tienda Online</p>
+                    </a>
+                    <a class="item" href="#">
+                        <div class="screen">
+                            <i class="fas fa-chess"></i>
+                        </div>
+                        <p>Juego de Ajedrez</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>Desarrollado por Miguel Lopera | 2025</p>
+        <div class="social-icons">
+            <a href="https://github.com/Rwimike" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
             </a>
-            <a class="item" href="#">
-                <img src="Blog.png" alt="Vista previa Blog" class="screen">
-                <p>Blog</p>
+            <a href="#" class="social-icon">
+                <i class="fab fa-linkedin"></i>
             </a>
-            <a class="item" href="#">
-                <img src="Blog.png" alt="Vista previa Blog" class="screen">
-                <p>Blog</p>
+            <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
             </a>
-            <a class="item" href="https://rwimike.github.io/Login-signup/">
-                <img src="blg.png" alt="Vista previa Login" class="screen">
-                <p>LogIn & SignUp</p>
-            </a>
-            <a class="item" href="#">
-                <img src="Blog.png" alt="Vista previa Blog" class="screen">
-                <p>Blog</p>
-            </a>
-            <a class="item" href="#">
-                <img src="Blog.png" alt="Vista previa Blog" class="screen">
-                <p>Blog</p>
+            <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
             </a>
         </div>
-    </section>
+    </footer>
+    
+    <script>
+        // JavaScript para el cursor personalizado de Minecraft
+        document.addEventListener('DOMContentLoaded', () => {
+            const cursor = document.querySelector('.custom-cursor');
+            
+            // Mover cursor con el ratón
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = `${e.clientX}px`;
+                cursor.style.top = `${e.clientY}px`;
+            });
+            
+            // Efecto al hacer clic
+            document.addEventListener('mousedown', () => {
+                cursor.style.transform = 'translate(-5px, -5px) rotate(-30deg) scale(0.9)';
+            });
+            
+            document.addEventListener('mouseup', () => {
+                cursor.style.transform = 'translate(-5px, -5px) rotate(0deg) scale(1)';
+            });
+            
+            // Efecto al pasar sobre elementos interactivos
+            const interactiveElements = document.querySelectorAll('a, button, .item');
+            interactiveElements.forEach(el => {
+                el.addEventListener('mouseenter', () => {
+                    cursor.style.transform = 'translate(-5px, -5px) scale(1.2)';
+                });
+                
+                el.addEventListener('mouseleave', () => {
+                    cursor.style.transform = 'translate(-5px, -5px) scale(1)';
+                });
+            });
+            
+            // Suavizar desplazamiento a secciones
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
