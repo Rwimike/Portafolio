@@ -1,4 +1,4 @@
-<// ==================== SISTEMA SPA MEJORADO ====================
+// ==================== SISTEMA SPA MEJORADO ====================
 
 class PortfolioSPA {
     constructor() {
